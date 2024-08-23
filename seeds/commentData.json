@@ -1,0 +1,38 @@
+[
+  {
+    "comment": "Great explanation of asynchronous programming in JavaScript. The section on promises was particularly helpful!",
+    "date_created": "2024-08-02T08:30:00.000Z",
+    "user_id": 1,
+    "post_id": 1
+  },
+  {
+    "comment": "I found the React Hooks guide very informative. The examples of `useEffect` were clear and practical.",
+    "date_created": "2024-08-06T15:45:00.000Z",
+    "user_id": 2,
+    "post_id": 2
+  },
+  {
+    "comment": "The best practices for writing clean code are spot on. I especially liked the emphasis on meaningful naming.",
+    "date_created": "2024-08-11T10:15:00.000Z",
+    "user_id": 3,
+    "post_id": 3
+  },
+  {
+    "comment": "Excellent introduction to Docker. The section on basic commands was a good starting point for beginners.",
+    "date_created": "2024-08-13T12:00:00.000Z",
+    "user_id": 1,
+    "post_id": 4
+  },
+  {
+    "comment": "The post on Agile methodologies provided a comprehensive overview. The historical context and current trends were well covered.",
+    "date_created": "2024-08-16T14:20:00.000Z",
+    "user_id": 2,
+    "post_id": 5
+  },
+  {
+    "comment": "Test-Driven Development (TDD) can be challenging, but this post clarified its benefits and provided useful tips for getting started.",
+    "date_created": "2024-08-19T17:00:00.000Z",
+    "user_id": 3,
+    "post_id": 6
+  }
+]

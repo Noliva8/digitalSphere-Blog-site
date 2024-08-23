@@ -1,2 +1,2 @@
-DROP DATABASE IF EXISTS digitalSphere_db;
-CREATE DATABASE digitalSphere_db;
+DROP DATABASE IF EXISTS digital_sphere_db;
+CREATE DATABASE digital_sphere_db;

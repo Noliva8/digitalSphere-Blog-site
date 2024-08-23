@@ -1,24 +1,76 @@
-header, .project:not(:last-child) {
-  border-bottom: 1px solid #ccc;
+
+:root {
+  --main-background: #fceed4;
+  --text-color: white;
+  --secondary-bk-color: #a05d3d;
+  --btn-bg-color: #a0a03d;
+ 
 }
 
-.no-button {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  color: #1b89bc;
-  text-decoration: none;
-  font-size: 100%;
+
+/*  */
+body{
+  background-image: url("../images/tech.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
 
-.no-button:hover {
-  color: #065b83;
-  text-decoration: underline;
+
+header{
+  background-color: var(--secondary-bk-color);
+}
+ul{
+  gap: 30px;
 }
 
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
+
+.menu-wrapper{
+  width: 100%;
+  
+  display: flex;
+  justify-content:space-between;
+}
+
+button{
+  color: white ! important;
+  background-color: transparent ! important; 
+  font-size: 1.2rem ! important;
+}
+
+.post{
+  background-color: var(--secondary-bk-color);
+  
+}
+
+
+.landing{
+  height: 400px;
+  background-image: url("../images/landing.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:start; 
+}
+
+.landing-title{
+  
+  margin-left: 40px;
+  
+}
+
+.blog{
+  background-color: white;
+  width: 30%;
+   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+   height: 40px;
+   border-radius: 5px;
+   margin: 30px auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
 }

@@ -1,24 +1,27 @@
-<!-- Loop over each object in the projects array -->
-{{#each projects as |project| }}
-<div class="row mb-4 project">
-  <div class="col-md-5">
-    <h2>
-      <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-      {{{get_emoji}}}
-      <a href="/project/{{project.id}}">{{project.name}}</a>
-    </h2>
-    <p>
-      <span for="img" aria-label="money">💲</span>
-      <!-- Pass needed_funding value to the helper function -->
-      <span class="dollar-amount">{{format_amount project.needed_funding}}</span>
-      needed!
-    </p>
-    <p>Created by {{project.user.name}} on {{format_date project.date_created}}</p>
-  </div>
-  <div class="col-md-7">
-    <p>
-      {{project.description}}
-    </p>
-  </div>
-</div>
-{{/each}}
+
+  <div class="landing">
+            <h2 class="animate__animated animate__fadeInLeft landing-title">Publish your innovation, your way</h2>
+            <p class="landing-title"><span>---</span> a unique and beautiful blog easily<span>---</span></p>
+
+          </div>
+
+          <section>
+            <div class="blog"><h3 class="blogs-title"> LATEST BLOGS</h3></div>
+            
+
+
+              <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-sm-12 post">
+              <div class="post-content">
+                <h3>This The title of the post</h3>
+                <p>This is the paragraph of the postThis is the paragraph of the postThis is the paragraph of the postTThis is the paragraph of the posthis is the paragraph of the post</p>
+              </div>
+            </div>
+
+          </div>
+         </div>
+
+
+
+          </section>
